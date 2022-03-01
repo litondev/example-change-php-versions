@@ -1,0 +1,5 @@
+// INSTALL MANY PHP VERISON
+https://www.tecmint.com/install-different-php-versions-in-ubuntu/
+
+// FASTEST WAY CHANGE PHP VERISON
+sudo update-alternatives --config php
