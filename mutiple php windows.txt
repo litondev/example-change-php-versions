@@ -1,0 +1,27 @@
+download co (contoh php 7.2.0 ) 
+di https://windows.php.net/downloads/releases/archives/
+
+extrat ke folder c:\xampp\php7_2
+copy php.ini.devlepomnt ubah jadi php.ini
+
+cari 
+extension_dir = "ext"
+di php.ini tadi dan unkomen 
+
+lalu cari curl,mbstring dll semua yang dibutuhkan dan unkomen
+
+ganti nama php.exe di folder php7_2 agar bisa dipangil langsung
+
+set env variable
+c:\xampp\php7_2 
+
+php7_2 -v
+* check version
+
+php7_2 c:\composer\composer.phar install
+php7_2 c:\composer\composer.phar update
+* using composer 
+
+pasang di apache 
+ * sebernanya pasang di apache sma kyk dinginx harus ada port utk defaultnya 
+ 
